@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './test';
-import Example from './hooks/eventhandle' 
+import Click from './hooks/eventhandle' 
 ReactDOM.render(
   <React.StrictMode>
-    <Example></Example>
+    <Click></Click>
   </React.StrictMode>,
   document.getElementById('root')
 );
