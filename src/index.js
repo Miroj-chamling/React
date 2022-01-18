@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './test';
-import Hooks from './hooks/button'
+import Windows from './hooks/widnow'
 ReactDOM.render(
   <React.StrictMode>
-    <Hooks></Hooks>
+    <Windows></Windows>
   </React.StrictMode>,
   document.getElementById('root')
 );
