@@ -13,7 +13,7 @@ export default function Windows()
         window.addEventListener('resize', handleResize);  
         
         return ()=>{
-            window.removeEventListener('resize', handleResize);
+            window.removeEventListener('resize', handleResize); //clean up
         }
     }, [])
 
